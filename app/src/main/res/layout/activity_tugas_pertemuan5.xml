@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.firmangemwart.tugaspertemuan5.TugasPertemuan5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:layout_gravity="bottom">
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Team A"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/skor_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="70dp" />
+
+                <Button
+                    android:id="@+id/point1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#ff9900"
+                    android:text="Point 1"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/point2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#ff9900"
+                    android:text="Point 2"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/point3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#ff9900"
+                    android:text="Point 3"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Team B"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/skor_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="70dp" />
+
+                <Button
+                    android:id="@+id/pointb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#ff9900"
+                    android:text="Point 1"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/pointb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#ff9900"
+                    android:text="Point 2"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/pointb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#ff9900"
+                    android:text="Point 3"
+                    android:textColor="#ffffff" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
